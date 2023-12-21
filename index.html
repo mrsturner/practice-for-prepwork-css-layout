@@ -2,44 +2,53 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
     </head>
     <body>
         <form action="/form-handling-url" method="post">
             <fieldset>
-            <legend>Add user</legend>
-        
+            <legend>add user</legend>
+
             <div>
-                <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
+                <label class="good_work" for="firstName">First name</label>
+                <input class="good_work" type="text" id="firstName" name="first_name">
             </div>
-        
+
             <div>
-                <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
+                <label class="good_work" for="lastName">Last name</label>
+                <input class="good_work" type="text" id="lastName" name="last_name">
             </div>
-        
+
             <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
+                <label class="good_work" for="email">Email</label>
+                <input class="good_work" type="email" id="email" name="email_address">
             </div>
-        
-            <div>
-                <label for="role">Status</label>
-                <select id="role" name="user_role_name">
+
+            <div class="phase">
+                <label class="good_work" for="role">Status</label>
+                <select class="good_work" id="role" name="user_role_name">
                 <option value="student">Student</option>
                 <option value="instructor">Instructor</option>
                 <option value="guest">Guest</option>
                 </select>
             </div>
-            
+
+            <div class="phase">
+                <label class="good_work" for="date">Date</label>
+                <input class="good_work" type="date" id="date" name="date">
+            </div>
+
+
             <div>
                 <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <input class="choice" type="radio" id="html" name="fav_language" value="HTML">
+                <label class="choice" for="html">HTML</label><br>
+                <input class="choice" type="radio" id="css" name="fav_language" value="CSS">
+                <label class="choice" for="css">CSS</label><br>
+                <input class="choice" type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label class="choice" for="javascript">JavaScript</label>
             </div>
 
             <div>
@@ -48,21 +57,16 @@
             </div>
 
             <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
-            </div>
-
-            <div>
                 <input type="checkbox" id="signup" name="signup" value="Signup">
                 <label for="signup">Sign up for news letter</label><br>
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
-        
+
             <div>
                 <button type="submit">Submit</button>
             </div>
-        
+
             </fieldset>
         </form>
     </body>

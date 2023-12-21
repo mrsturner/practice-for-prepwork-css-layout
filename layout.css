@@ -1,0 +1,36 @@
+/* font-family: 'Pragati Narrow', sans-serif; */
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54em;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+legend{
+    border: 1px solid black;
+}
+
+fieldset{
+    padding: 2em 10em;
+    /* max-width: 180%; */
+}
+
+.good_work{
+    display: block;
+}
+
+.phase{
+    float: left;
+    margin: 1.5em 2em 1.5em 0;
+}
+
+.choice{
+    display: flex;
+    justify-items: left;
+}
+
+label{
+text-align: center;
+width: 100%;
+}
