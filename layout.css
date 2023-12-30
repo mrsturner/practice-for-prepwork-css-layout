@@ -4,25 +4,30 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 54em;
+    height: 52em;
     font-family: 'Pragati Narrow', sans-serif;
 }
+
+
 legend{
     border: 1px solid black;
 }
 
 fieldset{
-    padding: 2em 10em;
-    /* max-width: 180%; */
+    padding: 2em 5em;
+    max-width: 23%;
+    margin: 3em 1em;
 }
 
 .good_work{
     display: block;
+    text-align: center;
+    width: 83%;
 }
 
 .phase{
     float: left;
-    margin: 1.5em 2em 1.5em 0;
+    margin: 1.5em 2em 1em 0;
 }
 
 .choice{
@@ -30,7 +35,6 @@ fieldset{
     justify-items: left;
 }
 
-label{
-text-align: center;
-width: 100%;
+.web_lang{
+width: 25%;
 }
